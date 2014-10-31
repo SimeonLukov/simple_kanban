@@ -36,7 +36,7 @@ table.kanban td {
   padding: 0.2em;
 
   width: 9em;
-  height: 12ex;
+  height: 15ex;
   overflow: hidden;
   
   float:left;
@@ -96,4 +96,9 @@ table.kanban td {
   right:  1px;
   
   opacity: 0.7;
+}
+
+.kanban_card .due_date {
+  position:absolute;
+  bottom: 0;
 }
